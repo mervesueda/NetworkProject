@@ -11,7 +11,7 @@ from PyQt5.QtCore import Qt, QTimer, pyqtSignal, pyqtSlot
 import socket
 import sys
 import threading
-
+.mert
 class ChatClient:
     def __init__(self, host='127.0.0.1', port=55555):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
